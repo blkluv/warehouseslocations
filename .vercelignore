@@ -1,0 +1,11 @@
+.git
+.DS_Store
+__pycache__
+*.pyc
+.env
+node_modules
+california_warehouses.csv
+map_vibecode
+location_map.html
+legend_example_map.html
+plotly.min.js

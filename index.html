@@ -1,196 +1,524 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facility Location Dashboard</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 20px;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 15px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-            overflow: hidden;
-        }
-        
-        .header {
-            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
-            color: white;
-            padding: 30px;
-            text-align: center;
-        }
-        
-        .header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-            font-weight: 300;
-        }
-        
-        .header p {
-            font-size: 1.1rem;
-            opacity: 0.9;
-        }
-        
-        .content {
-            padding: 40px;
-        }
-        
-        .instructions {
-            background: #f8f9fa;
-            border-left: 5px solid #007bff;
-            padding: 25px;
-            margin-bottom: 30px;
-            border-radius: 0 10px 10px 0;
-        }
-        
-        .instructions h2 {
-            color: #2c3e50;
-            margin-bottom: 15px;
-            font-size: 1.5rem;
-        }
-        
-        .instructions ol {
-            margin-left: 20px;
-            line-height: 1.8;
-        }
-        
-        .instructions li {
-            margin-bottom: 8px;
-            color: #495057;
-        }
-        
-        .button-container {
-            text-align: center;
-            margin: 40px 0;
-        }
-        
-        .btn {
-            display: inline-block;
-            padding: 15px 30px;
-            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
-            color: white;
-            text-decoration: none;
-            border-radius: 50px;
-            font-weight: 600;
-            font-size: 1.1rem;
-            transition: all 0.3s ease;
-            box-shadow: 0 5px 15px rgba(40, 167, 69, 0.3);
-        }
-        
-        .btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(40, 167, 69, 0.4);
-        }
-        
-        .btn:active {
-            transform: translateY(0);
-        }
-        
-        .requirements {
-            background: #fff3cd;
-            border: 1px solid #ffeaa7;
-            border-radius: 10px;
-            padding: 20px;
-            margin-top: 30px;
-        }
-        
-        .requirements h3 {
-            color: #856404;
-            margin-bottom: 15px;
-        }
-        
-        .requirements ul {
-            margin-left: 20px;
-            color: #856404;
-        }
-        
-        .requirements li {
-            margin-bottom: 5px;
-        }
-        
-        .code-block {
-            background: #2d3748;
-            color: #e2e8f0;
-            padding: 15px;
-            border-radius: 8px;
-            font-family: 'Courier New', monospace;
-            margin: 10px 0;
-            overflow-x: auto;
-        }
-        
-        .footer {
-            background: #f8f9fa;
-            padding: 20px;
-            text-align: center;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <h1>Facility Location Dashboard</h1>
-            <p>Interactive mapping tool for facility data visualization</p>
-        </div>
-        
-        <div class="content">
-            <div class="instructions">
-                <h2>📍 How to Generate Your Map</h2>
-                <ol>
-                    <li><strong>Prepare your data:</strong> Ensure your <code>facilities.csv</code> file is in the same directory as <code>create_map.py</code></li>
-                    <li><strong>Run the Python script:</strong> Execute the following command in your terminal:</li>
-                    <div class="code-block">python create_map.py</div>
-                    <li><strong>View your map:</strong> Once the script completes successfully, click the button below to view your interactive map</li>
-                </ol>
-            </div>
-            
-            <div class="button-container">
-                <a href="location_map.html" class="btn" id="mapButton">🗺️ View Interactive Map</a>
-            </div>
-            
-            <div class="requirements">
-                <h3>📋 Requirements</h3>
-                <ul>
-                    <li><strong>CSV File:</strong> facilities.csv with latitude/longitude columns</li>
-                    <li><strong>Python Libraries:</strong> pandas, plotly</li>
-                    <li><strong>Supported Column Names:</strong>
-                        <ul>
-                            <li>Latitude: latitude, lat, Latitude, LAT, y, Y</li>
-                            <li>Longitude: longitude, lon, lng, Longitude, LON, LONGITUDE, x, X</li>
-                            <li>Site Name: site_name, name, facility_name, site, Site, Name, facility</li>
-                            <li>Address: address, Address, full_address, location, street_address</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        
-        <div class="footer">
-            <p>🚀 Run <strong>create_map.py</strong> to generate your interactive facility map</p>
-        </div>
+<html lang="en" class="scroll-smooth"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CharisLooks Beauty - The Skincare Routine</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+tailwind.config = {
+darkMode: 'class',
+theme: {
+extend: {
+fontFamily: {
+sans: ['Inter', 'sans-serif'],
+serif: ['Playfair Display', 'serif'],
+},
+colors: {
+mint: {
+50: '#F5FAF8',
+100: '#EBF7F4',
+200: '#D1EBE5',
+300: '#A3D9CE',
+900: '#134E48',
+},
+sand: {
+100: '#F3EFE9',
+200: '#E6DDD0',
+300: '#E3C9A6',
+400: '#D4B996',
+500: '#C0A076',
+600: '#A48255',
+},
+dark: {
+900: '#0F172A',
+}
+},
+animation: {
+'float': 'float 6s ease-in-out infinite',
+'float-delayed': 'float 6s ease-in-out 3s infinite',
+'spin-slow': 'spin 12s linear infinite',
+'shimmer': 'shimmer 2.5s linear infinite',
+},
+keyframes: {
+float: {
+'0%, 100%': { transform: 'translateY(0)' },
+'50%': { transform: 'translateY(-20px)' },
+},
+shimmer: {
+'0%': { transform: 'translateX(-100%) skewX(-12deg)' },
+'100%': { transform: 'translateX(200%) skewX(-12deg)' },
+}
+}
+}
+},
+plugins: [
+function({ addUtilities }) {
+addUtilities({
+'.perspective-1000': { perspective: '1000px' },
+'.transform-style-3d': { transformStyle: 'preserve-3d' },
+'.backface-hidden': { backfaceVisibility: 'hidden' },
+})
+}
+]
+}
+</script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+body { font-family: 'Inter', sans-serif; }
+h1, h2, h3, h4 { font-family: 'Playfair Display', serif; }
+/* Smooth Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #F5FAF8; }
+::-webkit-scrollbar-thumb { background: #D1EBE5; border-radius: 3px; }
+/* Glass Utilities */
+.glass {
+background: rgba(255, 255, 255, 0.7);
+backdrop-filter: blur(16px);
+-webkit-backdrop-filter: blur(16px);
+border: 1px solid rgba(255, 255, 255, 0.5);
+box-shadow: 0 10px 30px -5px rgba(19, 78, 72, 0.05);
+}
+/* Animated Blobs */
+.blob {
+position: absolute;
+filter: blur(80px);
+opacity: 0.6;
+z-index: -1;
+/* Animation handled via JS for Parallax now */
+transition: transform 0.1s linear;
+}
+/* 3D Tilt Effect Container */
+.tilt-card {
+transition: transform 0.1s ease-out;
+transform-style: preserve-3d;
+}
+/* --- Scroll Animation Classes --- */
+.reveal-element {
+opacity: 0;
+transform: translateY(30px);
+filter: blur(10px);
+transition: all 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+will-change: transform, opacity, filter;
+}
+.reveal-element.active {
+opacity: 1;
+transform: translateY(0);
+filter: blur(0);
+}
+/* Stagger Delays */
+.delay-100 { transition-delay: 100ms; }
+.delay-200 { transition-delay: 200ms; }
+.delay-300 { transition-delay: 300ms; }
+.delay-400 { transition-delay: 400ms; }
+/* --- SHINY CTA BUTTON CSS --- */
+@property --gradient-angle { syntax: "<angle>"; initial-value: 0deg; inherits: false; }
+@property --gradient-angle-offset { syntax: "<angle>"; initial-value: 0deg; inherits: false; }
+@property --gradient-percent { syntax: "<percentage>"; initial-value: 20%; inherits: false; }
+@property --gradient-shine { syntax: "<color>"; initial-value: #E3C9A6; inherits: false; }
+.shiny-cta {
+--gradient-angle: 0deg;
+--gradient-angle-offset: 0deg;
+--gradient-percent: 20%;
+--gradient-shine: #D4B996;
+--shadow-size: 2px;
+position: relative;
+overflow: hidden;
+border-radius: 9999px;
+padding: 1rem 2.5rem;
+font-size: 0.875rem;
+line-height: 1.5;
+font-weight: 600;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #4A4A4A;
+background: linear-gradient(#F3EFE9, #F3EFE9) padding-box,
+conic-gradient(from calc(var(--gradient-angle) - var(--gradient-angle-offset)),
+transparent 0%, #E3C9A6 5%, var(--gradient-shine) 15%, #E3C9A6 30%, transparent 40%, transparent 100%) border-box;
+border: 1px solid transparent;
+box-shadow: inset 0 0 0 1px rgba(255,255,255,0.5), 0 10px 20px -5px rgba(212, 185, 150, 0.4);
+outline: none;
+transition: transform 0.2s, box-shadow 0.2s;
+cursor: pointer;
+isolation: isolate;
+z-index: 0;
+animation: border-spin 3s linear infinite;
+}
+@keyframes border-spin { to { --gradient-angle: 360deg; } }
+.shiny-cta:hover { transform: scale(1.02); box-shadow: 0 15px 25px -5px rgba(212, 185, 150, 0.5); }
+.shiny-cta:active { transform: scale(0.98); }
+.shiny-cta::before {
+content: ''; pointer-events: none; position: absolute; left: 50%; top: 50%;
+transform: translate(-50%, -50%); z-index: 0;
+--size: calc(100% - 6px); --position: 2px; --space: 4px;
+width: var(--size); height: var(--size);
+background: radial-gradient(circle at var(--position) var(--position), rgba(255,255,255,0.8) 0.5px, transparent 0) padding-box;
+background-size: var(--space) var(--space); background-repeat: space;
+mask-image: conic-gradient(from calc(var(--gradient-angle) + 45deg), black, transparent 10% 90%, black);
+border-radius: inherit; opacity: 0.6;
+}
+.shiny-cta::after {
+content: ''; pointer-events: none; position: absolute; left: 50%; top: 50%;
+transform: translate(-50%, -50%); z-index: 1;
+width: 100%; aspect-ratio: 1;
+background: linear-gradient(-50deg, transparent, rgba(255,255,255,0.8), transparent);
+mask-image: radial-gradient(circle at bottom, transparent 40%, black);
+opacity: 0.6;
+animation: shimmer-btn 4s linear infinite;
+}
+.shiny-cta span { position: relative; z-index: 2; display: flex; align-items: center; gap: 0.5rem; }
+@keyframes shimmer-btn { to { transform: translate(-50%, -50%) rotate(360deg); } }
+</style>
+<link id="all-fonts-link-font-geist" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-geist">.font-geist { font-family: 'Geist', sans-serif !important; }</style><link id="all-fonts-link-font-roboto" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-roboto">.font-roboto { font-family: 'Roboto', sans-serif !important; }</style><link id="all-fonts-link-font-montserrat" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-montserrat">.font-montserrat { font-family: 'Montserrat', sans-serif !important; }</style><link id="all-fonts-link-font-poppins" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-poppins">.font-poppins { font-family: 'Poppins', sans-serif !important; }</style><link id="all-fonts-link-font-playfair" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&amp;display=swap"><style id="all-fonts-style-font-playfair">.font-playfair { font-family: 'Playfair Display', serif !important; }</style><link id="all-fonts-link-font-instrument-serif" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:wght@400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-instrument-serif">.font-instrument-serif { font-family: 'Instrument Serif', serif !important; }</style><link id="all-fonts-link-font-merriweather" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&amp;display=swap"><style id="all-fonts-style-font-merriweather">.font-merriweather { font-family: 'Merriweather', serif !important; }</style><link id="all-fonts-link-font-bricolage" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-bricolage">.font-bricolage { font-family: 'Bricolage Grotesque', sans-serif !important; }</style><link id="all-fonts-link-font-jakarta" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-jakarta">.font-jakarta { font-family: 'Plus Jakarta Sans', sans-serif !important; }</style><link id="all-fonts-link-font-manrope" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-manrope">.font-manrope { font-family: 'Manrope', sans-serif !important; }</style><link id="all-fonts-link-font-space-grotesk" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-space-grotesk">.font-space-grotesk { font-family: 'Space Grotesk', sans-serif !important; }</style><link id="all-fonts-link-font-work-sans" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-work-sans">.font-work-sans { font-family: 'Work Sans', sans-serif !important; }</style><link id="all-fonts-link-font-pt-serif" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&amp;display=swap"><style id="all-fonts-style-font-pt-serif">.font-pt-serif { font-family: 'PT Serif', serif !important; }</style><link id="all-fonts-link-font-geist-mono" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-geist-mono">.font-geist-mono { font-family: 'Geist Mono', monospace !important; }</style><link id="all-fonts-link-font-space-mono" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap"><style id="all-fonts-style-font-space-mono">.font-space-mono { font-family: 'Space Mono', monospace !important; }</style><link id="all-fonts-link-font-quicksand" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-quicksand">.font-quicksand { font-family: 'Quicksand', sans-serif !important; }</style><link id="all-fonts-link-font-nunito" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-nunito">.font-nunito { font-family: 'Nunito', sans-serif !important; }</style>  <style>
+/* 3D Transform utilities */
+</style></head>
+<body class="bg-mint-50 text-slate-900 overflow-x-hidden selection:bg-sand-300 selection:text-white">
+
+    <!-- Parallax Background Blobs -->
+    <div class="fixed inset-0 overflow-hidden pointer-events-none z-0">
+        <div data-speed="0.05" class="parallax-blob blob w-[30rem] h-[30rem] rounded-full bg-sand-200 top-[-5rem] left-[-5rem] mix-blend-multiply opacity-50" style="transform: translateY(0px);"></div>
+        <div data-speed="0.08" class="parallax-blob blob w-[40rem] h-[40rem] rounded-full bg-mint-200 bottom-0 right-[-10rem] mix-blend-multiply opacity-50" style="transform: translateY(0px);"></div>
+        <div data-speed="0.03" class="parallax-blob blob w-[25rem] h-[25rem] rounded-full bg-blue-100 top-[40%] left-[30%] mix-blend-multiply opacity-30" style="transform: translateY(0px);"></div>
     </div>
-    
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full z-50 p-6 md:px-12 transition-all duration-300" id="navbar">
+        <div class="transition-opacity duration-300 border-white/20 border-b absolute top-0 right-0 bottom-0 left-0 backdrop-blur-md" id="nav-bg"></div>
+        <div class="flex z-10 max-w-7xl mr-auto ml-auto relative items-center justify-between">
+            <!-- Logo -->
+            <div class="flex flex-col gap-1 group cursor-pointer reveal-element delay-100 active">
+                <div class="flex gap-1 mb-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <div class="w-1 h-1 rounded-full bg-neutral-800"></div>
+                    <div class="w-1 h-1 rounded-full bg-neutral-800"></div>
+                    <div class="w-1 h-1 rounded-full bg-neutral-800"></div>
+                </div>
+                <span class="uppercase text-xl font-medium text-neutral-900 tracking-[0.2em] font-serif">CharisLooks</span>
+            </div>
+
+            <!-- Nav -->
+            <div class="hidden md:flex gap-8 text-sm font-medium text-neutral-600 reveal-element delay-200 active">
+                <a href="#" class="hover:text-neutral-900 transition-colors">Products</a>
+                <a href="#" class="hover:text-neutral-900 transition-colors">Science</a>
+                <a href="#" class="hover:text-neutral-900 transition-colors">Reviews</a>
+            </div>
+
+            <button class="hidden md:flex items-center gap-2 text-sm font-semibold border-b-2 border-neutral-900 pb-0.5 hover:text-sand-500 hover:border-sand-500 transition-all reveal-element delay-300 active">
+                Sign In
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Hero Section -->
+    <main class="min-h-screen flex overflow-hidden w-full pt-32 pb-20 relative perspective-1000 items-center">
+        
+        <div class="md:px-12 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 z-10 max-w-7xl mr-auto ml-auto pr-6 pl-6 relative gap-x-12 gap-y-12 items-center">
+            
+            <!-- Left Column: Content -->
+            <div class="flex flex-col items-start max-w-xl">
+                <!-- New Feature Badge -->
+                <div class="reveal-element delay-100 inline-flex gap-2 hover:bg-white/60 transition-colors cursor-default active text-xs font-medium text-neutral-600 bg-white/40 border-white/60 border rounded-full mb-8 pt-1 pr-3 pb-1 pl-3 shadow-sm backdrop-blur-sm gap-x-2 gap-y-2 items-center">
+                    <span class="relative flex h-2 w-2">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sand-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-sand-500"></span>
+                    </span>
+                    New: Hyaluron Complex 4.0
+                </div>
+
+                <h1 class="reveal-element delay-200 md:text-6xl lg:text-7xl leading-[1.1] active text-5xl font-bold text-neutral-900 tracking-tight font-serif mb-6">
+                    The skincare<br>
+                    that makes you <br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-sand-500 to-sand-600">glow.</span>
+                </h1>
+                
+                <p class="reveal-element delay-300 text-lg text-neutral-500 font-medium mb-10 leading-relaxed max-w-md active">
+                    Clinically proven to hydrate, repair and protect. Experience the science of nature in every drop.
+                </p>
+
+                <div class="reveal-element delay-400 flex flex-col sm:flex-row items-center gap-6 mb-12 active">
+                    <!-- Shiny CTA Button -->
+                    <button class="shiny-cta group">
+                        <span class="">
+                            Start Your Routine
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="transition-transform group-hover:translate-x-1"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                        </span>
+                    </button>
+
+                    <button class="flex items-center gap-3 text-neutral-500 hover:text-neutral-900 font-medium transition-colors group">
+                        <div class="w-10 h-10 rounded-full bg-white border border-neutral-200 flex items-center justify-center group-hover:border-sand-300 transition-colors shadow-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" class="translate-x-0.5"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                        </div>
+                        Watch the ritual
+                    </button>
+                </div>
+
+                <!-- Trust Badges -->
+                <div class="reveal-element delay-500 flex items-center gap-6 pt-8 border-t border-neutral-200/50 w-full active">
+                    <div class="flex -space-x-3">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&amp;h=100&amp;fit=crop" class="w-10 h-10 rounded-full border-2 border-mint-50 object-cover" alt="User" style="">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&amp;h=100&amp;fit=crop" class="w-10 h-10 rounded-full border-2 border-mint-50 object-cover" alt="User" style="">
+                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&amp;h=100&amp;fit=crop" class="w-10 h-10 rounded-full border-2 border-mint-50 object-cover" alt="User" style="">
+                    </div>
+                    <div>
+                        <div class="flex gap-0.5 text-sand-500 mb-0.5">
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                        </div>
+                        <p class="text-xs font-semibold text-neutral-800">Trusted by 4,000+ faces</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: 3D Tilt Image Composition -->
+            <div id="hero-visual" class="reveal-element delay-300 relative w-full h-[600px] flex items-center justify-center tilt-card cursor-pointer group active" style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg);">
+                
+                <!-- Glow Effect behind -->
+                <div class="absolute inset-0 bg-gradient-to-tr from-sand-200 via-white to-mint-200 rounded-[3rem] blur-3xl opacity-60 group-hover:opacity-80 transition duration-1000"></div>
+
+                <!-- Main Card Container -->
+                <div class="glass flex flex-col transition-all duration-300 group-hover:shadow-[0_25px_60px_-15px_rgba(0,0,0,0.1)] w-[380px] h-[520px] border-white/60 border rounded-[2.5rem] pt-4 pr-4 pb-4 pl-4 relative shadow-2xl items-center justify-between">
+                    
+                    <!-- Top Badge -->
+                    <div class="absolute top-6 left-6 right-6 flex justify-between items-center z-20">
+                        <div class="px-3 py-1 rounded-full bg-white/80 backdrop-blur text-[10px] font-bold tracking-widest uppercase text-neutral-900 shadow-sm border border-white/50">Summer Edition</div>
+                        <div class="w-8 h-8 rounded-full bg-white/80 flex items-center justify-center shadow-sm text-sand-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" class=""><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" class=""></path></svg>
+                        </div>
+                    </div>
+
+                    <!-- Main Image -->
+                    <div class="absolute inset-2 rounded-[2rem] overflow-hidden">
+                        <div class="bg-gradient-to-t from-sand-900/40 via-transparent to-transparent absolute top-0 right-0 bottom-0 left-0"></div><img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/51a51c7f-bd95-43ab-8499-9707501ef863_1600w.png" alt="Model" class="transform group-hover:scale-110 transition-transform duration-700 w-full h-full object-cover scale-105">
+                        <!-- Gradient Overlay -->
+                        
+                    </div>
+
+                    <!-- Floating Card 1 (Product) -->
+                    <div class="absolute -right-12 top-24 glass p-3 rounded-2xl flex items-center gap-3 w-56 transform translate-z-10 transition-transform duration-300 group-hover:translate-x-2 shadow-lg animate-float">
+                        <div class="w-12 h-12 bg-white rounded-lg flex items-center justify-center shrink-0 border border-neutral-100">
+                            <img src="https://images.unsplash.com/photo-1629198688000-71f23e745b6e?w=100&amp;h=150&amp;fit=crop" class="h-10 object-contain mix-blend-multiply" alt="Bottle">
+                        </div>
+                        <div class="">
+                            <p class="text-xs font-bold text-neutral-900">Hydration Serum</p>
+                            <p class="text-[10px] text-neutral-500">Restores barrier function</p>
+                        </div>
+                    </div>
+
+                    <!-- Floating Card 2 (Rating) -->
+                    <div class="-left-12 glass flex gap-3 transform translate-z-10 transition-transform duration-300 group-hover:-translate-x-2 animate-float-delayed rounded-2xl pt-3 pr-3 pb-3 pl-3 absolute bottom-32 shadow-lg gap-x-3 gap-y-3 items-center">
+                        <div class="flex -space-x-2">
+                            <div class="flex text-[10px] font-bold text-neutral-700 w-8 h-8 border-white border-2 rounded-full items-center justify-center">98%</div>
+                        </div>
+                        <div class="">
+                            <p class="text-xs font-bold text-neutral-900">Customer Satisfaction</p>
+                            <div class="flex text-sand-400 w-2 h-2 gap-0.5 mt-0.5">
+                                <svg class="fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                <svg class="fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                <svg class="fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                <svg class="fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                <svg class="fill-current" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bottom Controls Mockup -->
+                    <div class="absolute bottom-6 left-6 right-6 glass p-2 rounded-xl flex justify-between items-center z-20">
+                        <div class="flex gap-2">
+                            <div class="w-2 h-2 rounded-full bg-neutral-900"></div>
+                            <div class="w-2 h-2 rounded-full bg-neutral-300"></div>
+                            <div class="w-2 h-2 rounded-full bg-neutral-300"></div>
+                        </div>
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-neutral-500">Swipe</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Logos -->
+            <div class="col-span-1 lg:col-span-2 mt-8 lg:mt-0 flex flex-wrap justify-center gap-8 lg:gap-16 opacity-40 grayscale hover:grayscale-0 transition-all duration-700 reveal-element delay-500 active">
+                <span class="text-xl font-serif font-bold italic tracking-tighter text-neutral-800 cursor-default hover:scale-105 transition-transform">VOGUE</span>
+                <span class="text-xl font-serif font-bold tracking-widest text-neutral-800 cursor-default hover:scale-105 transition-transform">ELLE</span>
+                <span class="text-xl font-serif font-bold tracking-tighter text-neutral-800 cursor-default hover:scale-105 transition-transform">Harper's BAZAAR</span>
+                <span class="text-xl font-serif font-bold italic tracking-tight text-neutral-800 cursor-default hover:scale-105 transition-transform">Marie Claire</span>
+            </div>
+        </div>
+    </main>
+
+    <!-- Services Bento Grid Section -->
+    <section class="max-w-7xl mr-auto ml-auto pt-24 pr-6 pb-24 pl-6">
+        <div class="text-center mb-16 reveal-element">
+            <span class="text-xs font-bold tracking-[0.3em] text-sand-500 uppercase">The Science</span>
+            <h2 class="text-4xl md:text-5xl font-serif text-neutral-900 mt-4 mb-4">Formula for Radiance</h2>
+            <p class="text-neutral-500 max-w-2xl mx-auto">Our proprietary blend of botanicals and clinical actives delivers results you can see and feel.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 gap-6 h-auto md:h-[600px]">
+            
+            <!-- Bento Item 1: Large Feature -->
+            <div class="reveal-element md:col-span-2 md:row-span-2 glass rounded-[2rem] p-8 md:p-12 relative overflow-hidden group hover:shadow-xl hover:shadow-mint-200/50 transition-all duration-500 border border-white/60">
+                <div class="absolute top-0 right-0 w-80 h-80 bg-gradient-to-br from-mint-200 to-transparent rounded-full blur-[80px] group-hover:bg-mint-300/30 transition-all duration-700"></div>
+                
+                <div class="relative z-10 h-full flex flex-col justify-between">
+                    <div class="">
+                        <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mb-6 shadow-sm group-hover:scale-110 transition-transform duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-mint-900"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path></svg>
+                        </div>
+                        <h3 class="text-3xl font-serif font-bold text-neutral-900 mb-4">Clean Active Complex™</h3>
+                        <p class="text-neutral-500 text-lg leading-relaxed max-w-md">
+                            Bio-engineered ingredients that mimic your skin's natural structure. 100% vegan, cruelty-free, and devoid of parabens.
+                        </p>
+                    </div>
+                    
+                    <div class="mt-12 grid grid-cols-2 gap-4">
+                        <div class="bg-white/50 backdrop-blur border border-white rounded-2xl p-4 group-hover:border-mint-300 transition-colors">
+                            <div class="text-xs font-bold uppercase text-neutral-400 mb-1 tracking-wider">Absorption</div>
+                            <div class="text-2xl font-serif font-bold text-mint-900 flex items-center gap-2">
+                                <span class="relative flex h-2 w-2">
+                                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-mint-400 opacity-75"></span>
+                                    <span class="relative inline-flex rounded-full h-2 w-2 bg-mint-500"></span>
+                                </span>
+                                2x Faster
+                            </div>
+                        </div>
+                        <div class="bg-white/50 backdrop-blur border border-white rounded-2xl p-4 group-hover:border-sand-300 transition-colors">
+                            <div class="text-xs font-bold uppercase text-neutral-400 mb-1 tracking-wider">Hydration</div>
+                            <div class="text-2xl font-serif font-bold text-sand-600">+142%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bento Item 2: AI Skin Analysis Mockup -->
+            <div class="reveal-element delay-200 glass rounded-[2rem] p-6 relative overflow-hidden group hover:shadow-lg transition-all duration-300 border border-white/60">
+                <div class="absolute inset-0 bg-gradient-to-t from-sand-100/50 to-transparent"></div>
+                <div class="relative z-10">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-sand-500"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>
+                        </div>
+                        <span class="bg-neutral-900 text-white text-[10px] font-bold px-2 py-1 rounded-md">AI SCAN</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-neutral-900 mb-2">Smart Analysis</h3>
+                    <p class="text-sm text-neutral-500 mb-4">Personalized routine based on your unique skin profile.</p>
+                    
+                    <!-- Code/Tech visual adapted for Beauty -->
+                    <div class="bg-neutral-900 rounded-lg p-3 font-mono text-[10px] text-neutral-300 shadow-inner overflow-hidden">
+                        <div class="flex gap-1.5 mb-2">
+                            <div class="w-2 h-2 rounded-full bg-indigo-400"></div>
+                            <div class="w-2 h-2 rounded-full bg-cyan-400"></div>
+                            <div class="w-2 h-2 rounded-full bg-indigo-400"></div>
+                        </div>
+                        <div class="space-y-1">
+                            <div class="text-mint-300">&gt; Detecting skin_type...</div>
+                            <div>&gt; Type: Combination</div>
+                            <div>&gt; Concerns: ['Dryness', 'Glow']</div>
+                            <div class="text-sand-300">&gt; Generating routine...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bento Item 3: Sustainability -->
+            <div class="reveal-element delay-300 glass rounded-[2rem] p-6 relative overflow-hidden group hover:shadow-lg transition-all duration-300 border border-white/60">
+                <div class="absolute -right-4 -bottom-4 w-32 h-32 bg-mint-100 rounded-full opacity-50 group-hover:scale-150 transition-transform duration-500"></div>
+                
+                <div class="relative z-10 flex flex-col h-full justify-between">
+                    <div class="w-10 h-10 bg-white rounded-xl flex items-center justify-center shadow-sm mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-emerald-600"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-neutral-900 mb-2">Zero Waste</h3>
+                        <p class="text-sm text-neutral-500">Refillable glass packaging. Carbon neutral shipping worldwide.</p>
+                    </div>
+                    
+                    <div class="mt-4 flex items-center gap-2">
+                        <div class="h-1 w-full bg-neutral-100 rounded-full overflow-hidden">
+                            <div class="h-full w-[85%] bg-orange-500 rounded-full animate-shimmer" style="background-size: 200% 100%;"></div>
+                        </div>
+                        <span class="text-xs font-bold text-neutral-900">85%</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer Simple -->
+    <footer class="bg-white border-t border-neutral-100 py-12 px-6 mt-12 relative z-10 reveal-element">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-neutral-500">
+            <div class="flex items-center gap-2">
+                 <div class="flex gap-0.5">
+                    <div class="w-1 h-1 rounded-full bg-neutral-400"></div>
+                    <div class="w-1 h-1 rounded-full bg-neutral-400"></div>
+                </div>
+                <span class="font-serif font-bold text-neutral-700 tracking-widest">CHARISLOOKS</span>
+            </div>
+            <p>© 2024 CharisLooks Beauty. All rights reserved.</p>
+            <div class="flex gap-6">
+                <a href="#" class="hover:text-neutral-900 transition-colors">Instagram</a>
+                <a href="#" class="hover:text-neutral-900 transition-colors">TikTok</a>
+                <a href="#" class="hover:text-neutral-900 transition-colors">Terms</a>
+            </div>
+        </div>
+    </footer>
+
     <script>
-        // Check if location_map.html exists and update button accordingly
-        document.getElementById('mapButton').addEventListener('click', function(e) {
-            // This will naturally show a 404 if the file doesn't exist
-            // which tells the user they need to run the Python script first
+        // Init Lucide Icons
+        lucide.createIcons();
+
+        // 3D Tilt Effect Logic (Adapted from SaaS inspiration)
+        const heroVisual = document.getElementById('hero-visual');
+        if(heroVisual) {
+            heroVisual.addEventListener('mousemove', (e) => {
+                const rect = heroVisual.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                const rotateX = ((y - centerY) / 25) * -1;
+                const rotateY = (x - centerX) / 25;
+                heroVisual.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+            });
+            heroVisual.addEventListener('mouseleave', () => {
+                heroVisual.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg)';
+            });
+        }
+
+        // Scroll Reveal Animation (Intersection Observer)
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: "0px 0px -50px 0px"
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    observer.unobserve(entry.target); // Only animate once
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal-element').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Parallax Effect for Background Blobs
+        const blobs = document.querySelectorAll('.parallax-blob');
+        window.addEventListener('scroll', () => {
+            const scrollY = window.scrollY;
+            blobs.forEach(blob => {
+                const speed = blob.getAttribute('data-speed');
+                blob.style.transform = `translateY(${scrollY * speed}px)`;
+            });
+            
+            // Navbar background transition
+            const navbarBg = document.getElementById('nav-bg');
+            if (scrollY > 50) {
+                navbarBg.classList.remove('opacity-0');
+            } else {
+                navbarBg.classList.add('opacity-0');
+            }
         });
     </script>
-</body>
-</html>
+
+</body></html>
