@@ -119,11 +119,29 @@ def inject_custom_styling(html_file):
             color: #888;
             padding: 20px;
         }
+
+        /* Info box styling */
+        .info-box {
+            position: fixed;
+            top: 30px;
+            left: 30px;
+            z-index: 1000;
+            background: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            font-size: 14px;
+            color: #333;
+            font-family: 'Arial', sans-serif;
+        }
     </style>
     """
 
-    # Search bar HTML
+    # Search bar and info box HTML
     search_html = """
+    <div class="info-box">
+        I'm using this domain becuz I like shake shack
+    </div>
     <div class="search-container">
         <span class="search-icon">🔍</span>
         <input type="text" class="search-input" id="searchInput" placeholder="Search by state or facility code (e.g., CA or BWI6)">
