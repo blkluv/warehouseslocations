@@ -1,113 +1,88 @@
 ---
-title: "📱 Venture Capital Portfolio Growth Strategy: Why Your Investments Need TikTok PR, Not Press Releases"
-description: "Discover how @VCPitch solves startup visibility pain points with unlimited monthly TikTok PR posts that actually get seen, plus branded AR effects to engage communities where they actually spend time."
-publicationDate: 2025-07-26
+title: "📊 SK Commercial Realty Secures Over 65,000 Square Feet In November Leases at Circle 75 Office Park, Demonstrating Strong Demand and Seamless In-House Service Delivery"
+description: "Major transactions with VentureX, Simplicity Financial, and Phoenix Health Care total nearly $14 million in value, pushing 900 and 1100 Buildings to 91% and 93% leased respectively."
+publicationDate: 2025-12-05
 draft: false
 hidden: false
-category: "VC Strategy"
-tags: ["venture capital", "portfolio growth", "TikTok PR", "startup visibility", "investor relations", "AR effects", "IamWealthy", "deal flow"]
+category: "Leasing Success"
+tags: ["commercial real estate", "office leasing", "Circle 75", "Atlanta office market", "SK Commercial Realty", "property management", "tenant representation"]
 ---
 
-**Writer:** Hahz Terry aka Wizard of Hahz
-**July 26, 2025** • 3 min read
+**Writer:** SK Commercial Realty
+**December 5, 2025** • 4 min read
 
-## This Week's VC Reality Check: Traditional PR Is Dead, But Your Portfolio Still Needs Visibility
+![900 and 1100 Circle 75 Parkway with Truist Park and Battery Atlanta pedestrian bridge](/skcr-circle75-header.png)
 
-If your portfolio companies are still relying on press releases that no one reads or LinkedIn posts that disappear into the algorithm, you're leaving growth on the table. At @VCPitch, we've built a new model: unlimited monthly TikTok PR that keeps your investments where the masses actually spend time—with short, engaging content that drives real visibility.
+## 🏢 Record Leasing Activity at Premier Atlanta Office Destination
 
-## The Traditional PR Problem: Noise Without Signal
+**SK Commercial Realty (SKCR)** has completed three significant lease transactions at **Circle 75 Office Park**, reinforcing the full-service real estate firm's reputation for delivering exceptional results. In November alone, SKCR leased **over 65,000 square feet** in Circle 75.
 
-Let's break down why the old model fails your portfolio:
+Located adjacent to Truist Park and The Battery Atlanta, Circle 75 Office Park features Class A office towers **900, 1100**, and the build-to-suit opportunity at **1200 Circle 75**. With incredible walkability to shopping, dining, and entertainment at The Battery in addition to on-site amenities like a full-service café, fitness center, conference room, and collaborative tenant areas, Circle 75 continues to attract top-tier companies seeking convenience, visibility, and high-performance space.
 
-**Problem 1: The Ghost Town Press Release**
-That $5,000 press release your portfolio company just distributed? It reached approximately 37 people (mostly other PR firms). Traditional media reach has collapsed, while attention has migrated to platforms where your target customers, talent, and future investors actually engage.
+## 📈 November's Major Transactions
 
-**Problem 2: The LinkedIn Black Hole**
-Posting corporate updates on LinkedIn is like shouting into a hurricane of "thought leadership" and recruiter spam. Even with paid boosts, engagement rates hover around 1-2%—and that's mostly competitors watching you, not customers buying from you.
+SKCR's most significant activity last month includes **VentureX, Simplicity Financial, and Phoenix Health Care**, three leases totaling more than **50,000 square feet**.
 
-**Problem 3: The Content Creation Burden**
-Your portfolio founders should be building product and acquiring customers, not becoming social media influencers. Yet without consistent visibility, they struggle with customer acquisition, hiring, and follow-on funding.
+| Tenant | Square Footage | Building | Floor |
+|--------|----------------|----------|-------|
+| **VentureX** (Coworking) | 17,664 | 1100 Building | 4th Floor |
+| **Simplicity Financial** (Wealth Planning) | 22,356 | 900 Building | 15th Floor |
+| **Phoenix Health Care** (Healthcare Management) | 10,450 | 900 Building | 14th Floor |
 
-## The @VCPitch Solution: Unlimited Monthly TikTok PR That Actually Works
+The combined value of all three leases is nearly **$14 million**.
 
-Here's how we solve portfolio visibility pain points:
+## 🤝 Broker Team Excellence
 
-### **1. Where Attention Actually Lives**
-TikTok isn't just for dance trends—it's where Gen Z and Millennials discover brands, products, and investment opportunities. Our unlimited monthly PR posts keep your portfolio companies visible where:
-- 50% of users are 18-34 (your future customers and employees)
-- Average session time is 35+ minutes (vs. 2 minutes on news sites)
-- Viral reach happens organically (not through paid media budgets)
+All three leases were brokered by SK Commercial Realty's **Tom Parker** and **Tom Kirbo**, who represented Circle 75 Office Park.
 
-### **2. Short, Fun, Actually Engaging Content**
-We create the content portfolio companies need but don't have time to make:
-- Funding round announcements that don't feel like corporate press releases
-- Product launch teasers that build genuine excitement
-- Team culture snippets that attract top talent
-- Milestone celebrations that humanize the brand
+**Tenant representation:**
+- **VentureX** — Jodi Selvey and Derek Baker with Colliers International
+- **Simplicity Financial** — Brooke Gothard and Shea Meddin with Partners Real Estate
+- **Phoenix Health Care** — Steven Barton with CBRE
 
-### **3. The Branded AR Effect Advantage**
-Every verified investment through @VCPitch receives their own custom TikTok AR Effect—a gamified tool that turns their community into brand ambassadors. This isn't just a filter; it's a growth engine:
+> "We are so excited for all that's happening at Circle 75, and not just with these new leases we have coming into our 900 and 1100 buildings. With the new full-building opportunity 1200 Circle 75, plus the dual towers for The Henry, which is a mixed-use development project between SK and Goldenrod Companies, there are a lot of enticing reasons to move a business to this area, and I'm just honored to be a part of it."
+>
+> **— Tom Kirbo, President of SK Commercial Realty**
 
-**How AR Effects Drive Real Value:**
-- **User-generated content:** Followers create thousands of pieces of free marketing
-- **Community engagement:** 7x higher interaction vs. static posts
-- **Brand memorability:** Effects get saved and reused for months
-- **Data collection:** Track which demographics engage most with your brand
+## 📊 Building Performance Metrics
 
-### **4. One Location, Maximum Visibility**
-Instead of scattered PR efforts across dying platforms, your entire portfolio gets coordinated visibility through @VCPitch's established audience of founders, investors, and tech enthusiasts. We become your portfolio's digital megaphone.
+Following these November transactions:
+- **900 Building** (18 stories) is now **91% leased**
+- **1100 Building** (16 stories) is now **93% leased**
 
-## The Portfolio Math: Visibility = Valuation
+## 🏗️ Seamless In-House Service Delivery
 
-Consider the chain reaction:
-1. **Increased visibility** → More customer signups
-2. **Stronger talent brand** → Better hiring outcomes  
-3. **Consistent public traction** → Higher valuation multiples
-4. **Engaged community** → Lower customer acquisition costs
+One of those enticing reasons for tenants to move into Circle 75 Office Park is the seamless integration of SKCR's in-house project management division, **SK Project Consulting**.
 
-Portfolio companies using @VCPitch PR see:
-- **3.2x higher** organic reach vs. traditional PR
-- **41% reduction** in cost-per-hire
-- **28% faster** Series A to B progression
-- **Consistent 12-18% MoM** follower growth
+**VentureX** and **Phoenix Health Care** have both engaged the team to handle their full-suite renovations, totaling **almost $2 million** between the two projects. Project Consultant **Reid Schweers** is overseeing both alterations, and **SK Property Management** continues to manage both Circle 75 properties, ensuring alignment between the landlord's goals, tenant needs, and the elevated quality standards of Circle 75.
 
-## The Enterprise Investor Mic™: Your All-in-One Visibility Solution
+## 🚀 Future Opportunities at Circle 75
 
-The most forward-thinking funds aren't just using @VCPitch for deal flow—they're deploying the **Enterprise Investor Mic™** to give every portfolio company the visibility advantage.
+As leasing momentum continues across the campus, Circle 75's third office opportunity, **1200 Circle 75**, remains available for companies seeking a custom-built environment. The full building can accommodate up to **250,000 square feet**, offering a rare opportunity for a tenant to create a tailored headquarters or major regional office adjacent to one of Atlanta's most vibrant mixed-use destinations.
 
-**What You Get (Live in 48 Hours):**
-✅ Custom AR mic filter for your fund's brand  
-✅ Unlimited monthly TikTok PR for verified portfolio companies  
-✅ Paid ad campaign boosts (we handle strategy & execution)  
-✅ Portfolio-wide analytics dashboard  
-✅ Priority placement in @VCPitch content calendar  
+![Potential rendering of 1200 Circle 75, a full-building build-to-suit opportunity](/skcr-1200-circle75.png)
 
-**Two-Day Turnaround, Year-Round Impact**
-While traditional PR agencies take weeks to craft a single press release, we deliver a complete visibility system in 48 hours. Then we keep delivering—month after month—keeping your entire portfolio in the public conversation.
+Also underway between the 900 and 1100 Circle 75 buildings is **The Henry**, a two-tower mixed use development featuring luxury condos, apartments, and hotel rooms packed with amenities, in addition to street-level retail and a pedestrian bridge for tenants and Battery visitors alike.
+
+## 📍 Market Leadership
+
+SK Commercial Realty continues to leverage its market insight, comprehensive services, and unmatched location advantages to secure high-value results for its clients at Circle 75 Office Park and across the region.
 
 ---
 
-📍 **Get Started:** [Enterprise Investor Mic™](https://buy.stripe.com/7sY28re9b7CS1Kn0YN5wI1w)  
-📱 **See It Live:** [@VCPitch on TikTok](https://tiktok.com/@VCPitch)  
-⏰ **Time to Launch:** 48 hours from purchase  
-📈 **Included:** First month's paid ad boost campaign
+📍 **Learn More:** [https://skcr.com/circle-75](https://skcr.com/circle-75)  
+📞 **Contact SKCR:** (404) 252-1200
 
 ## FAQ
 
-**Q: How many portfolio companies can use the unlimited PR?**  
-A: All verified investments through your fund qualify. We create a content calendar that features multiple companies weekly, ensuring consistent visibility across your entire portfolio.
+**Q: What is the current availability at Circle 75 Office Park?**  
+A: Following November's leases, the 900 Building is 91% leased and the 1100 Building is 93% leased. The 1200 Circle 75 full-building opportunity remains available for tenants seeking up to 250,000 square feet of custom-built space.
 
-**Q: What kind of analytics do you provide?**  
-A: Monthly portfolio-wide reports showing reach, engagement, follower growth, and conversion metrics for each company, plus comparative benchmarks against industry standards.
+**Q: Who handled the lease transactions?**  
+A: Tom Parker and Tom Kirbo of SK Commercial Realty represented Circle 75 Office Park in all three transactions, working with tenant representatives from Colliers International, Partners Real Estate, and CBRE.
 
-**Q: Can portfolio companies request specific content?**  
-A: Absolutely. We work directly with portfolio marketing teams to highlight product launches, funding rounds, hiring pushes, and key milestones with content that matches their brand voice.
+**Q: What is The Henry?**  
+A: The Henry is a two-tower mixed-use development between SK and Goldenrod Companies, featuring luxury condos, apartments, hotel rooms, street-level retail, and a pedestrian bridge connecting to The Battery.
 
-**Q: How do the paid ad boosts work?**  
-A: We identify the highest-performing organic content each month and allocate ad spend to maximize reach to target demographics—founders, engineers, industry-specific audiences, or potential customers.
-
-**Q: What if we add new companies to our portfolio?**  
-A: New investments automatically qualify for the PR program and receive their custom AR effect within 48 hours of verification.
-
-**Q: How is this better than hiring a PR firm for each portfolio company?**  
-A: Instead of 20 companies paying $5K/month each ($100K+ annually), you get coordinated, platform-optimized visibility for your entire portfolio at a fraction of the cost with proven higher engagement rates.
+**Q: How does SK Project Consulting add value for tenants?**  
+A: SK Project Consulting provides in-house project management for tenant renovations, ensuring alignment between landlord goals, tenant needs, and quality standards—as demonstrated with nearly $2 million in renovation projects for VentureX and Phoenix Health Care.

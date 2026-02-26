@@ -1,97 +1,107 @@
 ---
-title: "🎬 VC Pitch Game Just Leveled Up: IamWealthy.app's TikTok AR Mic Effect Is Ending the Pitch Deck Era"
-description: "Discover how @VCPitch is solving the VC industry's biggest pain points with branded 60-second video pitches, ending the endless email chains and AI-generated spam."
-publicationDate: 2025-07-02
+title: "🏗️ SK Project Consulting Completes Transformative 126,000-Square-Foot Facility for Atlanta Ronald McDonald House Charities"
+description: "After seven years of planning and execution, SKPC delivers the first co-located Ronald McDonald House in the Southeast on the new Children's Healthcare of Atlanta campus."
+publicationDate: 2025-12-10
 draft: false
 hidden: false
-category: "VC Innovation"
-tags: ["venture capital", "pitch deck alternative", "startup fundraising", "TikTok AR", "deal flow", "IamWealthy", "investor tools", "video pitch"]
+category: "Project Consulting"
+tags: ["commercial real estate", "project management", "healthcare facilities", "Atlanta development", "SK Project Consulting", "construction management", "community impact"]
 ---
 
-**Writer:** Hahz Terry aka Wizard of Hahz
-**July 2, 2025** • 3 min read
+**Writer:** SK Commercial Realty
+**December 10, 2025** • 4 min read
 
-![VC Pitch AR Mic Effect Header](/iamwealthy-header.png)
+![Ronald McDonald House Grand Opening](/skpc-rmhc-header.png)
 
-## ✨ The Traditional Pitch Game Is Broken (And Everyone Knows It)
+## 🏥 A Landmark Achievement in Healthcare-Adjacent Development
 
-If you're a VC, your inbox tells the same story: hundreds of cold emails, generic AI-generated pitches, and endless calendar invites for "quick chats" that inevitably stretch into hour-long meetings. The traditional startup pitch process has become a time sink drowning investors in noise rather than signal.
+SK Commercial Realty is proud to spotlight the leadership and expertise of its **SK Project Consulting (SKPC)** division following the successful completion of a landmark project for Atlanta Ronald McDonald House Charities (RMHC).
 
-Enter **IamWealthy.app** and their disruptive @VCPitch TikTok channel, where they've weaponized Generation Z's favorite format—60-second vertical video—to create a smarter, faster, and more authentic way to discover startups.
+After more than seven years of planning, coordination, and execution led by **Todd Cohen, President of SKPC**, the new Ronald McDonald House held its ribbon cutting ceremony on **December 9, 2025**, with families welcomed beginning the following day on the Children's Healthcare of Atlanta Arthur M. Blank Hospital campus in North Druid Hills.
 
-## 🎤 The 60-Second Pitch Revolution
+The five-story, **126,000-square-foot facility** is the **first Ronald McDonald House in the Southeast** to be fully co-located on a hospital campus, reinforcing RMHC's mission to keep families close to the care their children need most.
 
-The math is simple: **60 seconds versus 60 minutes.** While traditional VCs spend hours reading decks and scheduling meetings, forward-thinking funds are now collecting high-signal video pitches through their own branded TikTok AR mic effects.
+## 📋 Seven Years of Strategic Execution
 
-The process is brilliantly simple:
-1. **Founders record** 60-second pitches using your fund's custom AR mic filter
-2. **You review** curated, authentic pitches on your schedule
-3. **Monthly analytics** show you pitch volume, founder demographics, and emerging trends
+SK Project Consulting began work on the project in **2018**, serving as RMHC's project consultant and trusted advisor throughout every phase of development. From early planning and evolving budgets to final delivery, SKPC managed a complex, multi-year process that required adaptability, discipline, and deep technical knowledge.
 
-No more "Can you sign this NDA?" No more "Let me forward you our 50-page deck." Just raw, authentic founder energy distilled into one scrollable minute.
+Acting as the central point of coordination, the SKPC team assembled and led a best-in-class group of architects, engineers, designers, and specialty consultants, while overseeing:
+- Design and construction
+- Technology integration
+- Furniture, fixtures, and equipment (FF&E)
+- Signage and wayfinding
+- Specialty elements and playscape development
 
-## 📈 Solving the VC Industry's Biggest Pain Points
+Every decision was executed to ensure alignment with RMHC's vision, schedule, and financial goals.
 
-### **Problem 1: The Email Graveyard**
-The average VC receives 500+ pitch emails monthly. 95% get deleted in seconds. With @VCPitch's branded mic effects, founders self-qualify by investing the effort to create a compelling video pitch.
+> "The new house is our most satisfying project to date. It was rewarding to manage the charity's 30-guest-room house on Peachtree-Dunwoody Road, but this new 110-room house on the amazing new campus is like no other. The charity's amazing leadership and team members enabled the success of the entire development team."
+>
+> **— Todd Cohen, President of SK Project Consulting**
 
-### **Problem 2: AI-Generated Spam**
-GPT-written pitch decks have flooded the market, making it impossible to distinguish real vision from AI-generated fluff. Video doesn't lie—you see the founder's passion, energy, and authenticity in every frame.
+## 🏢 A Facility Built for Families
 
-### **Problem 3: Calendar Hell**
-Back-to-back 30-minute "intro calls" consume entire workdays. With video pitches, you can review 20 companies in the time it takes to schedule one traditional meeting.
+The result is a transformative, **126,000-square-foot House** situated on approximately four acres and designed to support families from across Georgia and the Southeast.
 
-## 🔗 Your Brand, Your Filter, Your Pipeline
+**Facility highlights include:**
+- 🛏️ **110 total guest rooms**
+- 🤝 Welcoming lobby and community meeting space
+- 🛋️ Family lounges on multiple floors
+- 🍽️ Multiple dining areas
+- 👨‍👩‍👧‍👦 Family and chef's kitchens
+- 🧘 Wellness and recreation rooms
+- 🧺 Laundry rooms on every floor
+- 🌿 Expansive indoor and outdoor gathering spaces
 
-Every fund gets their own custom-branded AR mic effect—think Sequoia's red microphone or a16z's iconic logo coming to life on TikTok. Founders use your filter to submit pitches, creating viral visibility for your brand while building your deal flow.
+The surrounding campus further enhances the family experience with access to **20 acres of green space** and miles of walking trails.
 
-**Enterprise Investor Mic™ includes:**
-- Custom AR mic filter with your branding
-- Monthly pitch analytics dashboard
-- 60-second pitch review portal
-- QR code for website/event integration
-- Short-form video PR content
+## 🎨 The Signature Playscape: A Journey from Ground to Sky
 
-📍 **Get Your Mic:** [https://buy.stripe.com/7sY28re9b7CS1Kn0YN5wI1w](https://buy.stripe.com/7sY28re9b7CS1Kn0YN5wI1w)
+A signature component of the project is the **five-story playscape**, which SKPC managed from concept through execution. Designed as a journey from the ground to the sky, the playscape features:
+- 🏕️ A campground and forest at the base
+- 🌳 Treehouses through the middle levels
+- ✈️ An airplane at the top
 
-## 💡 Why Video Pitches Are Winning
+The playscape underwent multiple design iterations to ensure the highest standards of **safety and accessibility**, balancing fun, inclusivity, and suitability for children at various developmental stages.
 
-The data speaks for itself: video pitches have **3x higher engagement** than traditional decks and reveal founder charisma, communication skills, and authentic passion in ways slides never could. Plus, the 60-second format forces clarity—if you can't explain your business in one minute, you're not ready for funding.
+## 🤝 World-Class Project Team
 
-Funds using the Enterprise Investor Mic™ report:
-- **87% reduction** in time spent screening initial pitches
-- **42% increase** in quality deal flow
-- **31% faster** from first view to term sheet
+SKPC coordinated these partners and managed communication across all disciplines, allowing RMHC to remain focused on its mission while trusting that the project details were being expertly handled:
 
-## 🚀 The Future of Deal Flow Is Here
+| Role | Partner |
+|------|---------|
+| **Architect** | Perkins&Will |
+| **MEP Engineer** | HPD Engineering |
+| **Structural Engineer** | Walter P Moore |
+| **Interior Designer** | Sims Patrick Studio |
+| **General Contractor** | Brasfield & Gorrie |
+| **Playscape Builder** | Xibitz |
+| **Furniture Provider** | turnerboone |
+| **Technology Partner** | Encore Technology Group |
+| **Signage Specialist** | DeNyse Signs |
+| **Purchasing Agent** | ADM |
 
-The VC industry has been waiting for its "LinkedIn moment"—a platform that transforms how investors and founders connect. With IamWealthy.app's TikTok-first approach, that future has arrived. No more gatekeepers, no more friction, just authentic connections between visionary founders and forward-thinking investors.
+## 🏆 A Legacy of Community Impact
 
-As one early-adopter GP put it: "We reviewed more quality companies in one week with our AR mic than we typically see in a month of traditional sourcing."
+This project exemplifies **SK Project Consulting's role as a strategic partner** for organizations undertaking complex, high-impact developments. By combining comprehensive project management, disciplined financial oversight, and a collaborative, hands-on approach, SKPC helped deliver a facility that will serve families for **generations to come**—all while reinforcing SK Commercial Realty's commitment to projects that make a meaningful difference in the communities it serves.
 
 ---
 
-📍 **Website:** [https://iamwealthy.app](https://iamwealthy.app)  
-📱 **TikTok:** [@VCPitch](https://tiktok.com/@VCPitch)  
-🎤 **Get Your Mic:** [Enterprise Investor Mic™](https://buy.stripe.com/7sY28re9b7CS1Kn0YN5wI1w)  
-⏱️ **Pitch Limit:** 60 seconds (because time is money)
+📍 **Learn More:** [https://skcr.com/project-consulting](https://skcr.com/project-consulting)  
+📞 **Contact SK Project Consulting:** (404) 252-1200
 
 ## FAQ
 
-**Q: How does the Enterprise Investor Mic™ actually work?**  
-A: We create a custom TikTok AR filter with your fund's branding. Founders use it to record 60-second pitches, which are delivered to your private dashboard with analytics on pitch volume, founder demographics, and content trends.
+**Q: What makes this Ronald McDonald House unique?**  
+A: It's the first Ronald McDonald House in the Southeast to be fully co-located on a hospital campus, giving families direct access to the Children's Healthcare of Atlanta Arthur M. Blank Hospital.
 
-**Q: What if founders don't use TikTok?**  
-A: The video pitch format works across platforms—we provide a QR code for your website where founders can submit through any device. The TikTok AR effect is simply the most viral distribution channel.
+**Q: How long did the project take?**  
+A: SKPC began work in 2018, with the ribbon cutting in December 2025—a seven-year journey from planning to completion.
 
-**Q: How are you preventing low-quality submissions?**  
-A: The 60-second video format acts as a natural filter. Creating a compelling video requires more effort than sending a cold email, which dramatically increases submission quality.
+**Q: What was SKPC's role in the project?**  
+A: SKPC served as RMHC's project consultant and trusted advisor, managing the entire development process including design, construction, budgeting, and coordination of all project partners.
 
-**Q: Can we integrate this with our existing CRM?**  
-A: Yes, the Enterprise tier includes API access to sync pitch data with Salesforce, Affinity, or your preferred deal flow management system.
+**Q: How many families will the new facility serve?**  
+A: The 110-room house can support families from across Georgia and the Southeast, significantly expanding RMHC's capacity.
 
-**Q: What kind of analytics do you provide?**  
-A: Monthly reports include pitch volume trends, founder geographic distribution, industry/sector breakdown, submission times, and engagement metrics on your branded content.
-
-**Q: How quickly can we get our custom AR mic?**  
-A: Most funds go live within 48 hours of purchase. The faster you start, the faster you stop wasting time on traditional pitch meetings.
+**Q: What is the five-story playscape?**  
+A: A signature feature designed as a journey from ground to sky, featuring a campground, forest, treehouses, and an airplane—all designed with safety and accessibility for children at various developmental stages.

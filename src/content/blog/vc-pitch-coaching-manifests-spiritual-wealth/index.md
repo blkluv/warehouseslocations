@@ -1,133 +1,139 @@
 ---
-title: "🧠 The Unfair VC Advantage: How Hahz Terry's Manifestation Coaching Helps Founders Raise Millions"
-description: "Discover how IAMwealthy.app creator Hahz Terry ('Wizard of Hahz') applies spiritual principles from 'Think and Grow Rich' and other VC classics to help founders manifest venture capital success through mindset mastery."
-publicationDate: 2026-01-05
+title: "🏗️ From Vision to Reality: SK Project Consulting Delivers Over 4 Million Square Feet Across 1,200+ Projects Since 2002"
+description: "SKPC's owner's representation services bring precision, accountability, and seamless execution to healthcare, industrial, office, and retail developments throughout the Southeast."
+publicationDate: 2026-02-26
 draft: false
 hidden: false
-imageAlt: "Hahz Terry coaching founders on wealth manifestation through spiritual and strategic principles"
-tags: ["venture capital coaching", "wealth manifestation", "founder mindset", "think and grow rich", "pitch preparation", "spiritual entrepreneurship", "Hahz Terry"]
-actionButtons:
-  - text: Book Your Manifestation Session
-    url: https://buy.stripe.com/6oU8wP6GJbT8gFh36V5wI1v
-    newTab: true
-  - text: Join The Telegram Channel
-    url: https://t.me/hahznft
-    newTab: true
+category: "Project Consulting"
+tags: ["commercial real estate", "project management", "owner's representation", "construction management", "SK Project Consulting", "healthcare development", "industrial development"]
 ---
 
-## The VC Mindset Gap: Why Brilliant Founders Still Get Rejected
+**Writer:** SK Project Consulting
+**February 26, 2026** • 5 min read
 
-You've built the product. You have the traction. You can articulate the TAM. Yet term sheets remain elusive. Why? Because raising capital isn't just about business metrics—it's about energy, belief systems, and what Hahz Terry calls "frequency alignment" with wealth.
+![SK Project Consulting Team](/skpc-team-header.png)
 
-Meet **Hahz Terry**, known across founder circles as the **"Wizard of Hahz"**—creator of IAMwealthy.app, architect of the @VCPitch ecosystem, and a founder who personally raised over **$10M** by applying spiritual principles to venture capital.
+## 🎯 Beyond Location: The Power of Execution
 
-## 📚 The VC Canon: The Books Investors Actually Believe In
+In commercial real estate, success isn't just about location—it's about **execution**. At **SK Project Consulting (SKPC)** , we turn ideas into fully realized spaces by managing every stage of the development process with precision.
 
-While you're studying financial models, VCs are operating from a different playbook entirely. These are the texts that shape investor psychology:
+> "It's important for our clients to have somebody with experience, who has been through the process of design and construction to ensure that the process stays on schedule and within the budget."
+>
+> **— Todd Cohen, President of Project Consulting**
 
-**"Think and Grow Rich" by Napoleon Hill** – The foundational text for understanding how desire, faith, and persistence create wealth realities. VCs apply its principles to pattern recognition.
+From healthcare and industrial to office and retail, SKPC serves as the **owner's representative**, overseeing logistics, timelines, and vendors so clients can focus on running their business, not running a job site.
 
-**"The Psychology of Money" by Morgan Housel** – Understanding that financial decisions aren't spreadsheet calculations but emotional experiences.
+## 📊 By the Numbers
 
-**"The Almanack of Naval Ravikant"** – The modern VC bible on wealth creation, happiness, and leveraged decision-making.
+Since **2002**, SK Project Consulting has delivered:
 
-**"Zero to One" by Peter Thiel** – The contrarian mindset that drives billion-dollar bets.
+| Metric | Volume |
+|--------|--------|
+| **Projects Completed** | 1,200+ |
+| **Square Feet Delivered** | 4,000,000+ |
+| **Total Construction Volume** | $500,000,000+ |
 
-**"The Hard Thing About Hard Things" by Ben Horowitz** – The emotional resilience required to weather startup storms.
+## 🔍 What Is Project Consulting?
 
-What Hahz discovered: **Master these psychological frameworks, and you're not just pitching a business—you're speaking the investor's native language.**
+Our project consulting team handles the day-to-day decisions and challenges that come with building or renovating a commercial space. It's a strategic service that brings **clarity, momentum, and accountability** to complex developments.
 
-## 🧙 The "Wizard of Hahz" Method: Spiritual Mechanics of Venture Capital
+At SKPC, we partner with our clients from the earliest stages, helping define scope and budget all the way through construction and final delivery. We coordinate with architects, engineers, contractors, and inspectors to ensure every element is on track and on budget.
 
-Having personally navigated the fundraising journey to raise eight figures, Hahz developed a unique synthesis: **spiritual principles as venture capital strategy.**
+> "We oversee every detail so our clients can keep their attention on their business. We're entrusted to manage their project's success, and we don't take that lightly."
+>
+> **— Reid Schweers, Project Consultant**
 
-### **The Four Pillars of Fundraising Manifestation:**
+**Our services include:**
+- 📋 Creating and overseeing project budgets
+- ⏱️ Managing timelines and milestones
+- 🤝 Selecting and coordinating vendors
+- 📑 Navigating permits and compliance
+- ✅ Ensuring successful closeout and tenant delivery
+- 📢 Keeping clients informed at every turn
 
-**1. Belief Engineering** – Re-wiring your subconscious blocks about wealth and "deserving" investment.
+## 🏆 Signature Projects
 
-**2. Frequency Matching** – Aligning your energy with that of abundant investors (they can literally feel this in meetings).
+### Ronald McDonald House Charities - Arthur M. Blank Hospital Campus
 
-**3. Narrative Alchemy** – Transforming your personal story into an irresistible investment thesis.
+Opening in **fall 2025**, this **5-story House** will be equipped with **92 spacious guest rooms** and **18 transplant suites**, more than doubling the capacity of the current RMHC location near Emory University. The campus features:
+- 🌳 Expansive greenspace and miles of trails
+- 🌿 Discovery garden
+- 🎪 **5-story playscape**
+- 🛋️ Lounge areas and community spaces
 
-**4. Synchronicity Activation** – Creating the "luck surface area" that makes introductions, opportunities, and term sheets flow naturally.
+![Ronald McDonald House Charities - Arthur M. Blank Hospital Campus](/skpc-rmhc-blank.png)
 
-## 🕐 What Happens in Your 1-Hour Wealth Manifestation Session
+### Ronald McDonald House Charities - Scottish Rite Hospital
 
-This isn't business consulting. This is **consciousness surgery** for founders:
+A facility designed to support families with hospitalized children. SKPC managed the construction process while ensuring comfort, compliance, and compassion were built into every square foot. The project includes:
+- 🛏️ **30 guest rooms**
+- 🎪 Multi-story playscape
+- 🤝 Family support spaces
 
-**First 20 Minutes: Energy Audit**
-- Identifying the subconscious wealth blocks sabotaging your pitches
-- Mapping your current "vibrational frequency" against investor resonance
-- Pinpointing the limiting beliefs inherited from upbringing, past failures, or industry narratives
+![Atlanta Ronald McDonald House Charities - Scottish Rite Hospital](/skpc-rmhc-scottish-rite.png)
 
-**Next 25 Minutes: Strategy Recalibration**
-- Redesigning your pitch narrative from an energetic perspective
-- Creating daily rituals to maintain "fundraising frequency"
-- Building your personal mythology as an investable founder
+### Silver Comet Industrial Park - Powder Springs, GA
 
-**Final 15 Minutes: Quantum Leap Protocol**
-- The exact meditation/visualization for pre-meeting preparation
-- The "investor attraction" scripting technique
-- Your first 72-hour action plan to shift reality
+SKPC oversaw site planning, utility coordination, and vertical construction for a logistics-ready, **128-acre industrial park**. **Building 1** is a **350,000-square-foot facility** that was completed in **late 2024**.
 
-## 📱 The 30-Day Telegram Coaching Experience: Accountability Meets Alchemy
+![Silver Comet Industrial Park - Building A](/skpc-silver-comet.png)
 
-Your session unlocks access to our exclusive **Telegram coaching channel** where transformation accelerates:
+### Resurgens Orthopaedics - Multiple Locations
 
-**Daily Mindset Tasks** – Short, potent exercises to rebuild your wealth consciousness.
+**Johns Creek, Decatur, Kennesaw, Lawrenceville**, and more than **12 other offices** required tailored medical grade builds with attention to detail, compliance, and efficient patient flow.
 
-**Manifestation Challenges** – Weekly experiments in creating investor "luck."
+### The Commons at Lake Hearn - Atlanta, GA
 
-**Community Energy** – Peer founders on the same journey, sharing breakthroughs in real-time.
+A transformative renovation of Class A medical space on **Pill Hill**, this three-building complex offers:
+- 🏥 **355,000 square feet** of medical and life science space
+- 🚗 State-of-the-art parking deck
+- 🌉 **1,200 square feet** of covered outdoor walkways
+- 🌳 Sprawling across **12.1 acres**
 
-**Direct Hahz Access** – Voice message Q&A and crisis navigation.
+### Yonder Yoga - Various Studios
 
-Past participants report:
-- **"Raised $500K within 45 days of starting the program"**
-- **"Went from 30 investor rejections to 3 competing term sheets"**
-- **"Finally understood why investors kept saying 'I just don't feel it'"**
+Bespoke wellness spaces that reflect the brand's elevated aesthetic and functional needs.
 
-## 🌟 Why This Works When Everything Else Failed
+### Truffles Vein Specialists - Alpharetta, GA
 
-Traditional pitch coaching focuses on slides. Traditional therapy focuses on feelings. Hahz's method bridges the gap: **Healing the founder's relationship with money so investors feel safe placing millions with them.**
+A healthcare build tailored to both medical functionality and patient comfort.
 
-As one Series A founder put it: *"Hahz didn't help me craft a better pitch deck. He helped me become the person who naturally attracts capital. The deck became incidental."*
+Each project was managed with an approach based on use type, schedule, and budget—ensuring a **seamless process from initial planning to delivery**.
 
-## 💰 The Investment That Pays Infinite Returns
+## 👥 A Collaborative Team Built for Results
 
-Consider the math:
-- **Average seed round:** $1.5M
-- **Coaching investment:** $999
-- **Return on mindset:** 150,000% (literally)
+SKPC is led by a team of experienced professionals committed to excellence in commercial real estate development and construction. With decades of experience and hundreds of thousands of square feet delivered, our team includes:
 
-But more importantly: **Time saved.** Months of rejection cycles compressed into weeks of aligned action. The confidence to negotiate better terms. The clarity to choose the right investors, not just any investors.
+| Name | Role |
+|------|------|
+| **Todd Cohen** | President |
+| **Jay Du-Sauzay** | Senior Vice President |
+| **Reid Schweers** | Project Consultant |
+
+## 🚀 Start Your Next Project with Confidence
+
+From build-to-suit to adaptive reuse, SK Project Consulting brings industry expertise and unmatched attention to detail across every phase of your commercial real estate project.
+
+Have a project in mind? Reach out to our team to learn how we can help bring your vision to life.
 
 ---
 
-**🎯 Ready to Manifest Your Round?**
-The most successful founders understand: Wealth flows to those who have done the inner work first. Before you send another pitch deck, align your frequency.
-
-**📍 One-Hour Session + 30-Day Coaching:** $999  
-**📅 Available Sessions:** [Book Your Manifestation Call](https://buy.stripe.com/6oU8wP6GJbT8gFh36V5wI1v)  
-**📱 Immediate Access:** [Telegram Channel](https://t.me/hahznft)  
-**⏳ Typical Results:** Major mindset shifts within 30 days, fundraising momentum within 30
+📍 **Learn More:** [https://skcr.com/project-consulting](https://skcr.com/project-consulting)  
+📞 **Contact SKPC:** (404) 252-1200
 
 ## FAQ
 
-**Q: Is this religious or specific to a spiritual tradition?**  
-A: Not at all. We work with universal principles of consciousness, energy, and psychology that are compatible with any belief system (or none at all). Think of it as "mental technology" for wealth creation.
+**Q: What is owner's representation?**  
+A: Owner's representation means SKPC acts as your trusted advisor throughout the entire development process—managing budgets, timelines, vendors, and compliance so you can focus on your core business while we handle the complexities of construction.
 
-**Q: I'm skeptical about manifestation—does this actually work?**  
-A: Every principle taught comes from either: 1) Peer-reviewed psychology research, 2) Observable patterns from hundreds of fundraising cycles, or 3) Direct application by Hahz raising $10M+. Results speak louder than theory.
+**Q: What types of projects does SKPC handle?**  
+A: We specialize in healthcare, industrial, office, retail, and wellness spaces, with experience ranging from medical office buildings and industrial parks to boutique fitness studios and nonprofit facilities.
 
-**Q: What if I'm not actively fundraising right now?**  
-A: Perfect timing. The best moment to align your wealth consciousness is BEFORE you need the money. This creates natural opportunities rather than desperate scrambles.
+**Q: How does SKPC charge for its services?**  
+A: We offer flexible fee structures tailored to each project's scope and duration, typically based on a percentage of construction costs or a fixed project fee.
 
-**Q: How is this different from a regular executive coach?**  
-A: Executive coaches optimize your current trajectory. We help you quantum leap to a new trajectory entirely by dissolving the subconscious blocks that keep you in predictable patterns.
+**Q: Do you work with architects and contractors we already know?**  
+A: Absolutely. We're happy to integrate with your existing team or help you select the right partners for your specific project needs.
 
-**Q: Can you guarantee I'll raise money?**  
-A: We guarantee you'll transform your relationship with wealth, investor interactions, and self-confidence. The external results follow the internal shifts with remarkable consistency.
-
-**Q: What's your background with these spiritual principles?**  
-A: Hahz has studied manifestation principles for 15+ years alongside building multiple seven-figure businesses. This isn't theory—it's battlefield-tested psychology applied to venture capital's unique challenges.
+**Q: How early should we engage SKPC?**  
+A: The earlier, the better. Engaging us during the initial planning and site selection phase allows us to help shape scope, budget, and timeline before critical decisions are made.
