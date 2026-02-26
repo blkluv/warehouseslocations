@@ -1,0 +1,54 @@
+{
+  "name": "SKCR Airport Plaza",
+  "bio": "SKCR properties, powered by ATL Warehouse—tenants submit, vendors apply, tours booked. ",
+  "profilePicture": "/profile-picture.jpg",
+  "url": "https://skcr.atlwarehouse.com",
+  "isBlogDisplayed": true,
+  "blogHomePostLimit": 3,
+  "contactFormEnabled": true,
+  "web3FormsAccessKey": "1dff14ec-f8b0-492e-ae29-4594489de220",
+  "umamiWebsiteId": "dd667d9f-f9cd-4b59-8c17-c9681858bad7",
+  "iconLinks": [
+    {
+      "id": "1728534577186",
+      "icon": "tiktok",
+      "url": "https://www.tiktok.com/@sk_commercial_realty",
+      "color": "base"
+    }
+  ],
+"customLinks": [
+    {
+      "title": "🏢 Tenant Form",
+      "description": "Existing tenants: Submit maintenance requests, lease renewals, and access your tenant portal 24/7.",
+      "url": "https://atlwarehouse.com/airport-plaza-skcr-tenant/",
+      "image": "/skcr-tenant.jpg",
+      "imageAlt": "SKCR Airport Plaza Tenant Portal - Submit requests online",
+      "imageDark": "/skcr-tenant.jpg",
+      "imageAltDark": "SKCR Airport Plaza Tenant Portal - Submit requests online",
+      "color": "base",
+      "newTab": true
+    },
+    {
+      "title": "📍 Property Tour",
+      "description": "Schedule a personalized tour of Airport Plaza. View available suites, discuss lease terms, and explore Atlanta's premier commercial location.",
+      "url": "https://atlwarehouse.com/airport-plaza-skcr-booking/",
+      "image": "/skcr-property-tour.jpg",
+      "imageAlt": "Schedule an Airport Plaza property tour with SKCR",
+      "imageDark": "/skcr-property-tour.jpg",
+      "imageAltDark": "Schedule an Airport Plaza property tour with SKCR",
+      "color": "base",
+      "newTab": true
+    },
+    {
+      "title": "🛠️ Vendor Portal",
+      "description": "Service providers: Apply to work with SKCR at Airport Plaza. Submit insurance, licenses, and become an approved vendor.",
+      "url": "https://atlwarehouse.com/vendor-airport-plaza-skcr-vendor-portal/",
+      "image": "/skcr-vendor-portal.jpg",
+      "imageAlt": "SKCR Airport Plaza Vendor Application",
+      "imageDark": "/skcr-vendor-portal.jpg",
+      "imageAltDark": "SKCR Airport Plaza Vendor Application",
+      "color": "base",
+      "newTab": true
+    }
+  ]
+}

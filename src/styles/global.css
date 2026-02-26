@@ -1,0 +1,262 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  TIKTOK COLOR SCHEME
+  Black: #010101 (or pure black #000000)
+  TikTok Pink: #FE2C55
+  TikTok Blue: #25F4EE
+*/
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    
+    /* TIKTOK COLORS */
+    /* Primary: TikTok Pink */
+    --primary: #FE2C55;       
+    --primary-100: #FF6B8B;
+    --primary-200: #FE2C55;
+    --primary-300: #D81B4C;
+    --primary-content: #000000;
+    
+    /* Secondary: TikTok Blue */
+    --secondary: #25F4EE;
+    --secondary-100: #6DF7F2;
+    --secondary-200: #25F4EE;
+    --secondary-300: #00D9D2;
+    --secondary-content: #000000;
+    
+    /* Accent: White/Neon for highlights */
+    --accent: #FFFFFF;
+    --accent-content: #000000;
+    
+    /* Base/Backgrounds - Pure Black */
+    --base-100: #000000;
+    --base-200: #0A0A0A;
+    --base-300: #141414;
+    --base-content: #FFFFFF;
+    
+    /* Neutrals - Grayscale for TikTok */
+    --neutral-100: #1C1C1C;
+    --neutral-200: #2D2D2D;
+    --neutral-300: #3D3D3D;
+    --neutral-content: #FFFFFF;
+    
+    /* Gradient Background Variables - TikTok-style gradient */
+    --bg-top: #000000;
+    --bg-bottom: #0A0A0A;
+    
+    /* BORDER COLORS - Blue and Red for borders */
+    --border-blue: #25F4EE;      /* TikTok Blue for borders */
+    --border-red: #FE2C55;       /* TikTok Pink for borders */
+    --border-accent: #FFFFFF;    /* White for accent borders */
+  }
+
+  body {
+    font-family: theme('fontFamily.sans'), system-ui, -apple-system, sans-serif;
+    background: linear-gradient(to bottom, var(--bg-top), var(--bg-bottom));
+    color: var(--base-content);
+    min-height: 100vh;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    letter-spacing: -0.02em;
+  }
+  
+  /* Apply consistent border colors to all elements with borders */
+  * {
+    border-color: var(--border-blue) !important;
+  }
+  
+  /* Specific overrides for red borders */
+  .border-red, 
+  .menu-card:hover,
+  .btn-primary:hover,
+  .btn-secondary,
+  .nav-item.active,
+  footer,
+  hr,
+  .divider,
+  .highlight-box,
+  .prose h2 {
+    border-color: var(--border-red) !important;
+  }
+}
+
+@layer components {
+  /* TikTok-style Button */
+  .btn-primary {
+    background-color: var(--primary);
+    color: var(--primary-content);
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    font-size: 0.95rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 2px solid var(--border-blue) !important;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--primary-300);
+    border-color: var(--border-red) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(254, 44, 85, 0.3);
+  }
+  
+  .btn-secondary {
+    background-color: var(--secondary);
+    color: var(--secondary-content);
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    font-weight: 700;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 2px solid var(--border-red) !important;
+  }
+  
+  .btn-secondary:hover {
+    background-color: var(--secondary-300);
+    border-color: var(--border-blue) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(37, 244, 238, 0.3);
+  }
+
+  /* TikTok-style Card with glow effect */
+  .menu-card {
+    background-color: var(--base-200);
+    border: 2px solid var(--border-blue) !important;
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  .menu-card:hover {
+    border-color: var(--border-red) !important;
+    box-shadow: 0 0 20px rgba(254, 44, 85, 0.15);
+    transform: translateY(-4px);
+  }
+  
+  /* Typography Overrides for TikTok vibe */
+  .prose h2 {
+    color: var(--primary);
+    font-size: 1.75rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    border-bottom: 2px solid var(--border-red) !important;
+    padding-bottom: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .prose h3 {
+    color: var(--secondary);
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    border-left: 4px solid var(--border-blue) !important;
+    padding-left: 1rem;
+  }
+  
+  .price-tag {
+    color: var(--primary);
+    font-weight: 900;
+    font-size: 1.2rem;
+    background: linear-gradient(45deg, var(--border-red), var(--border-blue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* TikTok-inspired gradient text */
+  .tiktok-gradient {
+    background: linear-gradient(45deg, var(--border-red), var(--border-blue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Form elements */
+  input, textarea, select {
+    border: 2px solid var(--border-blue) !important;
+    border-radius: 6px;
+    background-color: var(--base-100);
+    padding: 0.5rem 1rem;
+    color: var(--base-content);
+  }
+  
+  input:focus, textarea:focus, select:focus {
+    border-color: var(--border-red) !important;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(254, 44, 85, 0.2);
+  }
+  
+  /* Navigation */
+  nav {
+    border-bottom: 2px solid var(--border-blue) !important;
+  }
+  
+  .nav-item {
+    border-bottom: 2px solid transparent !important;
+  }
+  
+  .nav-item.active {
+    border-bottom: 3px solid var(--border-red) !important;
+  }
+  
+  /* Footer */
+  footer {
+    border-top: 3px solid var(--border-red) !important;
+  }
+  
+  /* Images */
+  img, .food-image, .dish-image {
+    border: 3px solid var(--border-blue) !important;
+    border-radius: 10px;
+  }
+  
+  /* Dividers */
+  hr, .divider {
+    border-color: var(--border-red) !important;
+    border-width: 2px;
+  }
+  
+  /* Cards and containers */
+  .card, .container, .section {
+    border: 2px solid var(--border-blue) !important;
+    border-radius: 8px;
+  }
+  
+  /* Special highlights */
+  .highlight-box, .featured {
+    border: 2px solid var(--border-red) !important;
+    border-radius: 8px;
+  }
+}
+
+@layer utilities {
+  /* Border utilities */
+  .border-blue {
+    border-color: var(--border-blue) !important;
+  }
+  
+  .border-red {
+    border-color: var(--border-red) !important;
+  }
+  
+  /* Force override any black/gray borders */
+  .border-black,
+  .border-gray-800,
+  .border-gray-900,
+  .border-neutral-300,
+  .border-base-300 {
+    border-color: var(--border-blue) !important;
+  }
+  
+  /* Border width utilities */
+  .border-1 { border-width: 1px; }
+  .border-2 { border-width: 2px; }
+  .border-3 { border-width: 3px; }
+  .border-4 { border-width: 4px; }
+}
