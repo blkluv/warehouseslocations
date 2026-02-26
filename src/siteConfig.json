@@ -17,6 +17,13 @@
     }
   ],
 "customLinks": [
+      {
+      "title": "Who is SKCR?",
+      "url": "https://www.tiktok.com/@sk_commercial_realty/video/7291026520980671786",
+      "video": "/who.mp4",
+      "color": "base",
+      "aspectRatio": "9:16"
+    },
     {
       "title": "🏢 Tenant Form",
       "description": "Existing tenants: Submit maintenance requests, lease renewals, and access your tenant portal 24/7.",

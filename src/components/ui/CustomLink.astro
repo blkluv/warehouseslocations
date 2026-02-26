@@ -308,19 +308,25 @@ const carouselId = `carousel-${link.id}`;
       </div>
     )}
     {link.video && (
-      <div class="mb-3 -mx-6 -mt-3 max-w-[calc(100%+3rem)]"
-      >
-        <video
-          autoplay
-          loop
-          muted
-          playsinline
-          class="w-full object-cover object-center aspect-[3/2]"
-        >
-          <source src={link.video} type={`video/${link.video.split('.').pop()}`} />
-        </video>
-      </div>
+  <div class="mb-3 -mx-6 -mt-3 max-w-[calc(100%+3rem)]">
+    <video
+      autoplay
+      loop
+      muted
+      playsinline
+      class={`w-full object-cover object-center ${
+        link.aspectRatio === '9:16' 
+          ? 'aspect-[9/16] max-w-[300px] mx-auto' 
+          : 'aspect-[3/2]'
+      }`}
+    >
+      <source src={link.video} type={`video/${link.video.split('.').pop()}`} />
+    </video>
+    {link.aspectRatio === '9:16' && (
+      <p class="text-xs text-center mt-1 opacity-60">📱</p>
     )}
+  </div>
+ )}
     <div class="flex items-center justify-between w-full">
       <Icon
         name={link.icon ?? "link"}
