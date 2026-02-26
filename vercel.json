@@ -1,5 +1,5 @@
 {
-  "buildCommand": "python3 create_map.py",
+  "buildCommand": "cd /vercel/path0 && python3 create_map.py",
   "outputDirectory": ".",
   "installCommand": "pip3 install pandas plotly",
   "routes": [
